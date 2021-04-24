@@ -1,0 +1,810 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+   <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/catto.css">
+  <link rel="stylesheet" type="text/css" href="css/hospital-style.css">
+  <title>Mecare hospital</title>
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/scrollcat.js"></script>
+</head>
+<body>
+<div class="position-fixed p-2 rounded-circle" style="right: 50px; bottom: 50px; background-color: #121ddd;color: #fff; z-index: 9"><a href="#"><img src="images/fixed-icon.png"></a></div>
+<!--------------------top-header------------------->
+<div class="top-header">
+   <div class="container">
+      <div class="row">
+         <div class="col-md-8 col-xs-12 text-white  text-md-start text-sm-center pt-2">
+            <ul class="list-inline d-inline-flex">
+              <li class="me-5"><span><i class="fa fa-envelope-o" aria-hidden="true"></i></span> info@example.com</li>
+              <li class="me-5"><span><i class="fa fa-phone" aria-hidden="true"></i></span> +91 8000082535</li>
+            </ul>
+         </div>
+         <div class="col-md-4 col-xs-12 text-md-end text-sm-center pt-2">
+            <ul class="list-inline d-inline-flex ">
+              <li class="ms-3" ><a href="#" class="rounded-circle bg-light" id="icons-padding1"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+              <li class="ms-3"><a href="#" class="rounded-circle bg-light" id="icons-padding2"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+              <li class="ms-3"><a href="#" class="rounded-circle bg-light" id="icons-padding3"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+              <li class="ms-3"><a href="#" class="rounded-circle bg-light" id="icons-padding4"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            </ul>
+         </div>
+      </div><!--row-->
+   </div><!--container-->
+</div><!--top-header-->
+<!--------------------top-header------------------->
+
+<!--------------------top2-header------------------->
+
+<div class="top2-header bg-white py-2">
+   <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <img src="images/hospital_logo.png" class="img-fluid" id="images-size">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-lg-0">
+      </ul>
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown ms-4">
+          <a class="nav-link text-primary" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Home
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item bg-transparent" href="#">Home Page 01</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item bg-transparent" href="#">Home Page 02</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item bg-transparent" href="#">Home Page 03</a></li>
+          </ul>
+        </li>
+        </ul>
+
+        <a href="file:///C:/Users/PC/Desktop/HTML%20%20All%20Projects/hopital%20project/hospital-about-us.html" class="text-decoration-none ms-4 text-dark" id="hov">About us</a>
+
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown ms-4">
+          <a class="nav-link text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Services
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item bg-transparent" href="#">Services</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item bg-transparent" href="#">Services Details</a></li>
+          </ul>
+        </li>
+        </ul>
+
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown ms-4">
+          <a class="nav-link text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Other Pages
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item bg-transparent" href="#">Pricing</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item bg-transparent" href="#">Team</a></li>
+          </ul>
+        </li>
+        </ul>
+
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown ms-4">
+          <a class="nav-link text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Department
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item bg-transparent" href="#">Detartment</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item bg-transparent" href="#">Detartment Details</a></li>
+          </ul>
+        </li>
+        </ul>
+
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown ms-4">
+          <a class="nav-link text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Blog
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item bg-transparent" href="#">Blog</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item bg-transparent" href="#">Blog Details</a></li>
+          </ul>
+        </li>
+        </ul>
+
+        <a href="file:///C:/Users/PC/Desktop/HTML%20%20All%20Projects/hopital%20project/hospital-contact.html" class="text-decoration-none ms-4 text-dark" id="hov">Contact</a>
+        <a href="#" class="text-decoration-none ms-4 rounded-pill" id="get-quote-color">Get a Quote <i class="fa fa-chevron-right rounded-circle" id="get-quote-icon-shape" aria-hidden="true"></i></a>
+    </div>
+</nav>
+   </div><!--container-->
+</div><!--top2-header-->
+<!--------------------top2-header------------------->
+
+<!--------------------sliders----------------------------->
+
+<div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/slider_img.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block text-sm-start" id="text-on-slider">
+          <h1 class="animate__animated animate__fadeInUp">Get Better Care For<br>Your <span>Health</span></h1>
+          <p class="text-dark fs-5 animate__animated animate__fadeInUp">Quisque leo augue, lobortis ac nec, posuere ultricies nulla.<br>Prasent massa odiao, pellentesque in consectetur quis, volutpat<br>sit amet erat.</p>
+          <div class="animate__animated animate__fadeInRight">
+          <a href="#" class="text-decoration-none rounded-pill" id="get-quote-color-image">Learn More <i class="fa fa-chevron-right rounded-circle" id="get-quote-icon-shape-image" aria-hidden="true"></i></a>
+          </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/slider_img2.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block text-sm-start" id="text-on-slider">
+        <h1 class="animate__animated animate__fadeInUp">Get Better Care For<br>Your <span>Health</span></h1>
+          <p class="text-dark fs-5 animate__animated animate__fadeInUp">Quisque leo augue, lobortis ac nec, posuere ultricies nulla.<br>Prasent massa odiao, pellentesque in consectetur quis, volutpat<br>sit amet erat.</p>
+          <div class="animate__animated animate__fadeInRight">
+          <a href="#" class="text-decoration-none rounded-pill" id="get-quote-color-image">Learn More <i class="fa fa-chevron-right rounded-circle" id="get-quote-icon-shape-image" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+    <i class="fa fa-angle-left bg-white text-dark py-3 px-4 fs-5 rounded-circle" aria-hidden="true"></i>
+    <span class="visually-hidden">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+    <i class="fa fa fa-angle-right bg-white text-dark py-3 px-4 fs-5 rounded-circle" aria-hidden="true"></i>
+    <span class="visually-hidden">Next</span>
+  </a>
+</div>
+
+<!--------------------sliders----------------------------->
+
+<!--------------------About-Us---------------------------->
+<div class="about-us py-5">
+   <div class="container">
+       <div class="row">
+          <div class="col-lg-6 col-xs-12">
+              <img src="images/about_us_pic.png" class="img-fluid w-100">
+          </div>
+          <div class="col-lg-6 col-xs-12" style="color: #34495E ;">
+              <p class="text-nowrap ps-3 py-2 fs-5 text-primary" style="width: 61px; background-color:#CCD0D3;letter-spacing: 2px;">ABOUT US</p>
+              <h1>We Are Specialize in<br>Medical Diagnositics</h1>
+              <p>Nulla lacinia sapien a diam ullamcorper, sed congue leo vulputate.<br>Phasellus et ante ultrices, sagittis purus vitae, sagittis quam. Quisque<br>urna lectus, auctor quis tristique tincidunt, semper vel lectus. Mauris<br>eget eleifend massa. Praesent ex felis, laoreet nec tellus in, laoreet<br>commodo ipsum.</p>
+              <div>
+                <ul class="list-inline d-inline-flex">
+                  <li><i class="fa fa-chevron-right" aria-hidden="true"></i></li>
+                  <li class="ms-3">Pellentesque placerat, nisi congue vehicula efficitur.</li>
+                </ul>
+              </div>
+              <div>
+                <ul class="list-inline d-inline-flex">
+                  <li><i class="fa fa-chevron-right" aria-hidden="true"></i></li>
+                  <li class="ms-3">Pellentesque placerat, nisi congue vehicula efficitur.</li>
+                </ul>
+              </div>
+              <div class="pb-3">
+                <ul class="list-inline d-inline-flex">
+                  <li><i class="fa fa-chevron-right" aria-hidden="true"></i></li>
+                  <li class="ms-3">Phasellus mattis vitae magna in suscipit. Nam tristique posuere<br>sem, mattis molestie est bibendum.</li>
+                </ul>
+              </div>
+              <a href="#" class="text-decoration-none rounded-pill py-2" id="get-quote-color">Get a Quote <i class="fa fa-chevron-right rounded-circle" id="get-quote-icon-shape" aria-hidden="true"></i></a>  
+          </div>
+       </div><!--row-->
+   </div><!--container-->
+</div><!--about-us-->
+<!--------------------About-Us---------------------------->
+
+<!--------------------Our-Services---------------------->
+<div class="our-services py-5">
+   <div class="container">
+      <div class="row">
+        <div class="text-center">
+           <p class="text-nowrap ps-3 py-2 fs-5 text-primary m-auto" style="width: 83px; background-color:#CCD0D3;letter-spacing: 2px;">OUR SERVICES</p>
+           <h1>Our Special Services For You</h1>
+           <p>Fusce pharetra odio in urna laoreet laoreet. Aliquam erat volutpat. Phasellus nec ligula arcu.<br>Aliquam eu urna pulvinar, iaculis ipsum in, porta massa.</p>
+        </div>
+         <div class="col-md-4 col-xs-12 text-center mt-5">
+            <img src="images/sr-icon01.png" class="img-fluid" id="our-service-img-back-shadow1">
+            <h4 class="py-2">Online Emergency</h4>
+            <p>Mauris nunc felis, congue eu convallis in,<br>bibendum vitae nisl. Duis vestibulum eget<br>orci maximus pretium.</p>
+         </div>
+
+         <div class="col-md-4 col-xs-12 text-center mt-5 pt-5">
+            <img src="images/sr-icon02.png" class="img-fluid" id="our-service-img-back-shadow2">
+            <h4 class="py-2">Medication Service</h4>
+            <p>Mauris nunc felis, congue eu convallis in,<br>bibendum vitae nisl. Duis vestibulum eget<br>orci maximus pretium.</p>
+         </div>
+
+         <div class="col-md-4 col-xs-12 text-center mt-5">
+            <img src="images/sr-icon03.png" class="img-fluid" id="our-service-img-back-shadow3">
+            <h4 class="py-2">24hr Health Program</h4>
+            <p>Mauris nunc felis, congue eu convallis in,<br>bibendum vitae nisl. Duis vestibulum eget<br>orci maximus pretium.</p>
+         </div>
+      </div><!--row-->
+   </div><!--container-->
+</div><!--our-services-->
+<!--------------------Our-Services---------------------->
+
+<!--------------------Count-up-------------------------->
+<div class="count-up py-5">
+   <div class="container">
+      <div class="row justify-content-around">
+         <div class="col-lg-2 col-md-4 col-xs-12 text-center py-4 my-4 mx-4" id="count-up-box-shadow">
+            <img src="images/cunt-icon01.png" class="img-fluid" id="countup-image-size">
+            <h1 class="counter" data-count="500" id="count-number-size">0</h1>
+            <h4 id="font-sizes">Doctors At Work</h4>
+          </div>
+         <div class="col-lg-2 col-md-4 col-xs-12 text-center py-4 my-4 mx-4" id="count-up-box-shadow">
+            <img src="images/cunt-icon02.png" class="img-fluid" id="countup-image-size">
+            <h1 class="counter" data-count="58796" id="count-number-size">0</h1>
+            <h4 id="font-sizes">Happy Patients</h4>
+         </div>
+         <div class="col-lg-2 col-md-4 col-xs-12 text-center py-4 my-4 mx-4" id="count-up-box-shadow">
+            <img src="images/cunt-icon03.png" class="img-fluid" id="countup-image-size">
+            <h1 class="counter" data-count="500" id="count-number-size">0</h1>
+            <h4 id="font-sizes">Medical Beds</h4>
+         </div>
+         <div class="col-lg-2 col-md-4 col-xs-12 text-center py-4 my-4 mx-4" id="count-up-box-shadow">
+            <img src="images/cunt-icon04.png" class="img-fluid" id="countup-image-size">
+            <h1 class="counter" data-count="200" id="count-number-size">0 <span>+</span></h1>
+            <h4 id="font-sizes">Winning Awards</h4>
+         </div>
+      </div><!--row-->
+   </div><!--contianer-->
+</div><!--count-up-->
+
+<script>
+    $('.counter').each(function() {
+  var $this = $(this),
+      countTo = $this.attr('data-count');
+  
+  $({ countNum: $this.text()}).animate({
+    countNum: countTo
+  },
+
+  {
+
+    duration: 8000,
+    easing:'linear',
+    step: function() {
+      $this.text(Math.floor(this.countNum));
+    },
+    complete: function() {
+      $this.text(this.countNum);
+      //alert('finished');
+    }
+
+  });  
+  
+  
+
+});
+</script>
+
+<!--------------------Count-up-------------------------->
+
+<!--------------------Our-Department---------------------->
+<div class="our-department py-5">
+   <div class="container">
+      <div class="row">
+         <div class="">
+            <p class="text-nowrap ps-3 py-2 fs-5 text-primary" style="width: 110px; background-color:#CCD0D3; letter-spacing: 2px;">OUR DEPARTMENTS</p>
+         </div>
+         <div class="col-lg-6 col-xs-12">
+            <h1>We Take Care Of Your Life<br>Healthy Health</h1>
+            <div id="depart-box" class="mt-5 mb-4 pt-3">
+            <ul class="list-inline d-inline-flex">
+              <li class="pt-4 px-4 rounded-circle my-3 mx-3" id="depart-icon-shadow"><img src="images/de-icon01.png" class="img-fluid"></li>
+              <li class="" id="depart-para-h"><a href="#" class="fs-4 text-decoration-none text-dark"><b>Pedlatric</b></a>
+              <p id="depart-para-h"><a href="#" class="text-decoration-none text-dark">Phasellus et ante ultrices, sagittis purus vitae, sagittis quam.<br>que urna lectus, auctor quis tristique tincidunt, semper<br>vel lectus. Mauris eget eleifend massa.</a></p></li>
+            </ul>
+            </div>
+
+            <div id="depart-box" class="mb-4">
+            <ul class="list-inline d-inline-flex">
+              <li class="p-4 px-4 rounded-circle my-3 mx-3" id="depart-icon-shadow"><img src="images/de-icon02.png" class="img-fluid"></li>
+              <li class=""><a href="#" class="fs-4 text-decoration-none text-dark"><b>Dental</b></a> 
+                <p><a href="#" class="text-decoration-none text-dark">Phasellus et ante ultrices, sagittis purus vitae, sagittis quam.<br>que urna lectus, auctor quis tristique tincidunt, semper<br>vel lectus. Mauris eget eleifend massa.</a></p></li>
+            </ul>
+            </div>
+
+            <div id="depart-box" class="mb-4">
+            <ul class="list-inline d-inline-flex">
+              <li class="pt-4 px-4 rounded-circle my-3 mx-3" id="depart-icon-shadow"><img src="images/de-icon03.png" class="img-fluid"></li>
+              <li class=""><a href="#" class="fs-4 text-decoration-none text-dark"><b>Physicians</b></a>
+                <p><a href="#" class="text-decoration-none text-dark">Phasellus et ante ultrices, sagittis purus vitae, sagittis quam.<br>que urna lectus, auctor quis tristique tincidunt, semper<br>vel lectus. Mauris eget eleifend massa.</a></p></li>
+            </ul>
+            </div>
+         </div>
+         <div class="col-lg-6 col-xs-12">
+             <img src="images/our_department.png" class="img-fluid" id="img-height">
+         </div>
+      </div><!--row-->
+   </div><!--container-->
+</div><!--our-department-->
+<!--------------------Our-Department---------------------->
+
+
+
+<!--------------------Our-Team----------------------------->
+<div class="our-team py-5">
+   <div class="container">
+      <div class="row">
+         <div class="text-center">
+           <p class="text-nowrap ps-3 py-2 fs-5 text-primary m-auto" style="width: 62px; background-color: #CCD0D3; letter-spacing: 2px;">OUR TEAM</p>
+           <h1>Docter’s In The Medical Sciences</h1>
+           <p>Fusce pharetra odio in urna laoreet laoreet. Aliquam erat volutpat. Phasellus nec ligula arcu. Aliquam eu<br>urna pulvinar, iaculis ipsum in, porta massa.</p>
+         </div>
+      </div><!--row-->
+      <div id="carouselExampleControls" class="carousel slide pt-5" data-bs-ride="carousel">
+          <div class="carousel-inner">
+              <div class="carousel-item active">
+                 <div class="row">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                       <div class="card border-0">
+                          <img src="images/team01.png" class="card-img-top" alt="...">
+                       <div class="card-body">
+                       <h3 class="card-title">Samanta Crane</h3>
+                       <p class="card-text">CEO of Fire Epic</p>
+                       </div>
+                       </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                       <div class="card border-0">
+                          <img src="images/team02.png" class="card-img-top" alt="...">
+                       <div class="card-body">
+                       <h3 class="card-title">Norman Colins</h3>
+                       <p class="card-text">Internist, General Practitoner</p>
+                       </div>
+                       </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                       <div class="card border-0">
+                          <img src="images/team03.png" class="card-img-top" alt="...">
+                       <div class="card-body">
+                       <h3 class="card-title">Ostin Green</h3>
+                       <p class="card-text">CEO of Fire Epic</p>
+                       </div>
+                       </div>
+                    </div>
+                 </div><!--row-->
+             </div>
+             <div class="carousel-item">
+                 <div class="row">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                       <div class="card border-0">
+                          <img src="images/team01.png" class="card-img-top" alt="...">
+                       <div class="card-body">
+                       <h3 class="card-title">Samanta Crane</h3>
+                       <p class="card-text">CEO of Fire Epic</p>
+                       </div>
+                       </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                       <div class="card border-0">
+                          <img src="images/team02.png" class="card-img-top" alt="...">
+                       <div class="card-body">
+                       <h3 class="card-title">Norman Colins</h3>
+                       <p class="card-text">Internist, General Practitoner</p>
+                       </div>
+                       </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                       <div class="card border-0">
+                          <img src="images/team03.png" class="card-img-top" alt="...">
+                       <div class="card-body">
+                       <h3 class="card-title">Ostin Green</h3>
+                       <p class="card-text">CEO of Fire Epic</p>
+                       </div>
+                       </div>
+                    </div>
+                 </div><!--row-->
+             </div>
+             <div class="carousel-item">
+                 <div class="row">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                       <div class="card border-0">
+                          <img src="images/team01.png" class="card-img-top" alt="...">
+                       <div class="card-body">
+                       <h3 class="card-title">Samanta Crane</h3>
+                       <p class="card-text">CEO of Fire Epic</p>
+                       </div>
+                       </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                       <div class="card border-0">
+                          <img src="images/team02.png" class="card-img-top" alt="...">
+                       <div class="card-body">
+                       <h3 class="card-title">Norman Colins</h3>
+                       <p class="card-text">Internist, General Practitoner</p>
+                       </div>
+                       </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                       <div class="card border-0">
+                          <img src="images/team03.png" class="card-img-top" alt="...">
+                       <div class="card-body">
+                       <h3 class="card-title">Ostin Green</h3>
+                       <p class="card-text">CEO of Fire Epic</p>
+                       </div>
+                       </div>
+                    </div>
+                 </div><!--row-->
+             </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+          </a>
+      </div>
+   </div><!--container-->
+</div><!--our-team-->
+<!--------------------Our-Team----------------------------->
+
+
+<!---------------------Newsletter------------------------->
+<div class="news-letter py-5">
+  <div class="background_color">
+   <div class="container">
+      <div class="row">
+         <div class="col-md-4 col-sm-6 col-xs-12 m-auto">
+            <p class="text-nowrap ps-3 py-2 fs-5 text-primary" style="width: 75px; background-color: #72B6FB ; letter-spacing: 2px;">NEWSLETTER</p>
+            <h1>Subscribe To Our<br>Newsletter</h1>
+         </div>
+         <div class="col-md-4 col-sm-6 col-xs-12 text-center m-auto">
+            <div class="input-group mb-3 ">
+                <span>
+                 <input type="text" class="form-control rounded-pill mb-4" placeholder="Email Address" aria-label="Recipient's username" aria-describedby="button-addon2" title="The field is required" id="rounded-pill1">
+                 <a  href="#" class="bg-primary py-1 px-3 text-white rounded-pill d-blcok text-decoration-none" id="button-addon2">Subscibe</a>
+                 </span>
+            </div>
+         </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+             <img src="images/news-illustration.png" class="img-fluid">
+          </div>
+      </div><!--row-->
+   </div><!--container-->
+  </div><!--background-color-->
+</div><!--news-letter-->
+<!---------------------Newsletter------------------------->
+
+<!--------------------Testimonials------------------------>
+<div class="testimonials pt-5">
+   <div class="container">
+      <div class="row text-center">
+         <p class="text-nowrap ps-3 py-2 fs-5 text-primary m-auto" style="width: 80px; background-color: #CCD0D3; letter-spacing: 2px;">TESTIMONIALS</p>
+         <h1>What Our Client’s Say’s</h1>
+         <p>Fusce pharetra odio in urna laoreet laoreet. Aliquam erat volutpat. Phasellus nec ligula arcu. Aliquam eu<br>urna pulvinar, iaculis ipsum in, porta massa.</p>
+      </div><!--row-->
+
+      <div id="carouselExampleSlidesOnly" class="carousel slide py-5" data-bs-ride="carousel">
+          <div class="carousel-inner py-5 px-5">
+              <div class="carousel-item active">
+                  <div class="card my-5 mx-5 w-100" id="card-shadow" >
+                     <div class="card-body">
+                        <h4 class="card-title" id="card-margin1">Joe Bidden</h4>
+                        <p class="card-text" id="card-margin2">MD & Founder</p>
+                        <p class="card-text fs-5" id="card-margin2">Nulla lacinia sapien a diam ullamcorper, sed congue leo vulputate. Phasellus et ante ultrices, sagittis purus vitae, sagittis quam. Quisque urna lectus, auctor quis tristique tincidunt, semper vel lectus. Mauris eget eleifend massa. Praesent ex felis, laoreet nec tellus in, laoreet commodo ipsum.</p>
+                        <div class="position-absolute top-0 start-0 translate-middle"><img src="images/testimonial-img.png" class="img-fluid"></div>
+                     </div>
+                  </div>
+              </div>  
+              <div class="carousel-item">
+                  <div class="card my-5 mx-5 w-100" id="card-shadow">
+                     <div class="card-body">
+                        <h4 class="card-title" id="card-margin1">John Dose</h4>
+                        <p class="card-text" id="card-margin2">Sale Exicutive</p>
+                        <p class="card-text fs-5" id="card-margin2">Nulla lacinia sapien a diam ullamcorper, sed congue leo vulputate. Phasellus et ante ultrices, sagittis purus vitae, sagittis quam. Quisque urna lectus, auctor quis tristique tincidunt, semper vel lectus. Mauris eget eleifend massa. Praesent ex felis, laoreet nec tellus in, laoreet commodo ipsum.</p>
+                        <div class="position-absolute top-0 start-0 translate-middle"><img src="images/testimonial-img.png" class="img-fluid"></div>
+                     </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="card my-5 mx-5 w-100" id="card-shadow">
+                     <div class="card-body">
+                        <h4 class="card-title" id="card-margin1">Alex Robinson</h4>
+                        <p class="card-text" id="card-margin2">Web Developer</p>
+                        <p class="card-text fs-5" id="card-margin2">Nulla lacinia sapien a diam ullamcorper, sed congue leo vulputate. Phasellus et ante ultrices, sagittis purus vitae, sagittis quam. Quisque urna lectus, auctor quis tristique tincidunt, semper vel lectus. Mauris eget eleifend massa. Praesent ex felis, laoreet nec tellus in, laoreet commodo ipsum.</p>
+                        <div class="position-absolute top-0 start-0 translate-middle"><img src="images/testimonial-img.png" class="img-fluid"></div>
+                     </div>
+                  </div>
+              </div>
+               <div class="carousel-item">
+                  <div class="card my-5 mx-5 w-75" id="card-shadow">
+                     <div class="card-body">
+                        <h4 class="card-title" id="card-margin1">Joe Bidden</h4>
+                        <p class="card-text" id="card-margin2">MD & Founder</p>
+                        <p class="card-text fs-5" id="card-margin2">Nulla lacinia sapien a diam ullamcorper, sed congue leo vulputate. Phasellus et ante ultrices, sagittis purus vitae, sagittis quam. Quisque urna lectus, auctor quis tristique tincidunt, semper vel lectus. Mauris eget eleifend massa. Praesent ex felis, laoreet nec tellus in, laoreet commodo ipsum.</p>
+                        <div class="position-absolute top-0 start-0 translate-middle"><img src="images/testimonial-img.png" class="img-fluid"></div>
+                     </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+   </div><!--container-->
+</div><!--testimonials-->
+<!--------------------Testimonials------------------------>
+
+<!---------------------Our-Pricing------------------------>
+<div class="our-pricing pb-5">
+   <div class="container">
+      <div class="row justify-content-center">
+         <div class="text-center pb-4">
+            <p class="text-nowrap ps-3 py-2 fs-5 text-primary m-auto" style="width: 75px; background-color: #CCD0D3; letter-spacing: 2px;">OUR PRICING</p>
+            <h1>Afforable Pricing Packages</h1>
+            <p>Fusce pharetra odio in urna laoreet laoreet. Aliquam erat volutpat. Phasellus nec ligula arcu. Aliquam eu<br>urna pulvinar, iaculis ipsum in, porta massa.</p>
+         </div>
+         <div class="col-lg-3 col-md-4 col-sm-5 col-xs-12 m-4 px-4" id="price-shadow">
+            <div class="text-center py-4">
+                <h1>SILVER PLAN</h1>
+                <p class="fs-3">$25.99</p>
+                <img src="images/pr-icon01.png">
+            </div>
+            <p>It is a long established fact that a<br>reader will be distracted.</p>
+            <p><i class="fa fa-chevron-right" aria-hidden="true"></i> Update</p>
+            <p><i class="fa fa-chevron-right" aria-hidden="true"></i> File compressed</p>
+            <p><i class="fa fa-chevron-right" aria-hidden="true"></i> Commercial use</p>
+            <p class="pb-5"><i class="fa fa-chevron-right" aria-hidden="true"></i> Support</p>
+            <div class="text-lg-center"><a href="#" class="text-decoration-none rounded-pill" id="get-quote-color-price1">Choose Plan <i class="fa fa-chevron-right rounded-circle" id="get-quote-icon-shape-price2" aria-hidden="true"></i></a></div>
+         </div>
+
+         <div class="col-lg-3 col-md-4 col-sm-5 col-xs-12 m-4 px-4" id="price-shadow1">
+            <div class="text-center py-4">
+                <h1>GOLD PLAN</h1>
+                <p class="fs-3">$45.99</p>
+                <img src="images/pr-icon02.png">
+            </div>
+            <p>It is a long established fact that a<br>reader will be distracted.</p>
+            <p><i class="fa fa-chevron-right" aria-hidden="true"></i> Update</p>
+            <p><i class="fa fa-chevron-right" aria-hidden="true"></i> File compressed</p>
+            <p><i class="fa fa-chevron-right" aria-hidden="true"></i> Commercial use</p>
+            <p class="pb-5"><i class="fa fa-chevron-right" aria-hidden="true"></i> Support</p>
+            <div class="text-lg-center"><a href="#" class="text-decoration-none rounded-pill" id="get-quote-color-price1">Choose Plan <i class="fa fa-chevron-right rounded-circle" id="get-quote-icon-shape-price2" aria-hidden="true"></i></a></div>
+         </div>
+
+         <div class="col-lg-3 col-md-4 col-sm-5 col-xs-12 m-4" id="price-shadow">
+            <div class="text-center py-4">
+                <h1>PREMIUM PLAN</h1>
+                <p class="fs-3 pb-3">$75.99</p>
+                <img src="images/pr-icon03.png">
+            </div>
+            <p>It is a long established fact that a<br>reader will be distracted.</p>
+            <p><i class="fa fa-chevron-right" aria-hidden="true"></i> Update</p>
+            <p><i class="fa fa-chevron-right" aria-hidden="true"></i> File compressed</p>
+            <p><i class="fa fa-chevron-right" aria-hidden="true"></i> Commercial use</p>
+            <p class="pb-5"><i class="fa fa-chevron-right" aria-hidden="true"></i> Support</p>
+            <div class="text-lg-center"><a href="#" class="text-decoration-none rounded-pill" id="get-quote-color-price1">Choose Plan <i class="fa fa-chevron-right rounded-circle" id="get-quote-icon-shape-price2" aria-hidden="true"></i></a></div>
+         </div>
+      </div><!--row-->
+   </div><!--container-->
+</div><!--our-pricing-->
+<!---------------------Our-Pricing------------------------>
+
+<!---------------------Appointment----------------------->
+<div class="appointment py-5">
+  <div class="background_color2">
+   <div class="container">
+      <div class="row">
+         <div class="col-md-4 col-sm-6 col-xs-12">
+            <img src="images/ap-illustration.png" class="img-fluid">
+         </div>
+         <div class="col-md-4 col-sm-6 col-xs-12 m-auto">
+           <p class="text-nowrap ps-3 py-2 fs-5 text-primary" style="width: 80px; background-color: #72B6FB ; letter-spacing: 2px;">APPOINTMENT</p>
+           <h1>Make An Appointment<br>For Emergency</h1>
+         </div>
+         <div class="col-md-4 col-sm-6 col-xs-12 m-auto py-3">
+           <div class="text-lg-center"><a href="#" class="text-decoration-none rounded-pill" id="get-quote-color-price1">Appointment <i class="fa fa-chevron-right rounded-circle" id="get-quote-icon-shape-price2" aria-hidden="true"></i></a></div>
+         </div>
+      </div><!--row-->
+   </div><!--container-->
+  </div><!--background_color2-->
+</div><!--appointment-->
+<!---------------------appointment----------------------->
+
+
+<!---------------------Our-Latest-Blog------------------->
+<div class="our-latest-blog py-5">
+   <div class="container">
+      <div class="row justify-content-center">
+         <div class="text-center">
+            <p class="text-nowrap ps-3 py-2 fs-5 text-primary m-auto" style="width: 95px; background-color: #CCD0D3; letter-spacing: 2px;">OUR LATEST BLOG</p>
+            <h1>Stay Updated To Our Blog & News</h1>
+            <p>Fusce pharetra odio in urna laoreet laoreet. Aliquam erat volutpat. Phasellus nec ligula arcu. Aliquam eu<br>urna pulvinar, iaculis ipsum in, porta massa.</p>
+         </div>
+         <div class="col-lg-3 col-md-4 col-sm-5 col-xs-12 m-4">
+           <div class="py-3">
+              <img src="images/blog_img01-1.jpg" class="img-fluid" id="our-latest-images-radius">
+           </div>
+           <div class="text-center py-3" id="our-latest-div-shadow">
+              <h6 class="py-3">We denounce with of righteous<br>one indignation.</h6>
+              <p class="py-3">Lorem ipsum dolor sit amet, consectetur<br>adipisicing elit, sed do eiusmod tempor<br>incididunt ut labore et dolore..</p>
+              <div class="text-lg-center py-3"><a href="#" class="text-decoration-none rounded-pill" id="get-quote-color-price1">Appointment <i class="fa fa-chevron-right rounded-circle" id="get-quote-icon-shape-price2" aria-hidden="true"></i></a></div>
+           </div>
+         </div>
+
+         <div class="col-lg-3 col-md-4 col-sm-5 col-xs-12 m-4">
+           <div class="py-3">
+              <img src="images/blog_img02-1.jpg" class="img-fluid" id="our-latest-images-radius">
+           </div>
+           <div class="text-center py-3" id="our-latest-div-shadow">
+              <h6 class="py-3">Making distribut product team<br>work</h6>
+              <p class="py-3">Lorem ipsum dolor sit amet, consectetur<br>adipisicing elit, sed do eiusmod tempor<br>incididunt ut labore et dolore..</p>
+              <div class="text-lg-center py-3"><a href="#" class="text-decoration-none rounded-pill" id="get-quote-color-price1">Appointment <i class="fa fa-chevron-right rounded-circle" id="get-quote-icon-shape-price2" aria-hidden="true"></i></a></div>
+           </div>
+         </div>
+
+         <div class="col-lg-3 col-md-4 col-sm-5 col-xs-12 m-4">
+           <div class="py-3">
+              <img src="images/blog_img03-1.jpg" class="img-fluid" id="our-latest-images-radius">
+           </div>
+           <div class="text-center py-3" id="our-latest-div-shadow">
+              <h6 class="py-3">There are many variations<br>passages</h6>
+              <p class="py-3">Lorem ipsum dolor sit amet, consectetur<br>adipisicing elit, sed do eiusmod tempor<br>incididunt ut labore et dolore..</p>
+              <div class="text-lg-center py-3"><a href="#" class="text-decoration-none rounded-pill" id="get-quote-color-price1">Appointment <i class="fa fa-chevron-right rounded-circle" id="get-quote-icon-shape-price2" aria-hidden="true"></i></a></div>
+           </div>
+         </div>
+      </div><!--row-->
+   </div><!--container-->
+</div><!--our-latest-blog-->
+<!---------------------Our-Latest-Blog------------------->
+
+<!--------------------Contact--------------------------->
+<div class="contact py-5">
+   <div class="container">
+      <div class="row">
+         <div class="col-md-6 col-xs-12">
+            <img src="images/touch-illustration.png" class="img-fluid">
+         </div>
+         <div class="col-md-6 col-xs-12">
+            <p class="text-nowrap ps-3 py-2 fs-5 text-primary" style="width: 63px; background-color: #CCD0D3; letter-spacing: 2px;">CONTACT</p>
+            <h1 class="pb-2">Get In Touch With Us</h1>
+            <div class="row py-2">
+               <div class="col-md-6 col-xs-12">
+                   <input class="form-control rounded-pill py-2 my-1" type="search" placeholder="First Name">
+               </div>
+               <div class="col-md-6 col-xs-12">
+                  <input class="form-control rounded-pill py-2 my-1" type="search" placeholder="Last Name">
+               </div>
+            </div><!--row-->
+            <div class="py-2">
+              <input class="form-control rounded-pill py-2" type="search" placeholder="Write here your email">
+            </div>
+            <div class="py-2">
+              <input class="form-control rounded-pill py-2" type="search" placeholder="I would like to discuss">
+            </div>
+            <div class="py-2">
+               <textarea class="form-control py-2" placeholder="Write Comments" aria-label="With textarea"></textarea>
+            </div>
+            <div class="py-3"><a href="#" class="text-decoration-none rounded-pill" id="contact-send-color-price1">Send Message </a></div>
+         </div>
+      </div><!--row-->
+      <div class="row justify-content-around py-5">
+         <div class="col-lg-2 col-md-5 col-xs-12 text-center p-4 my-4" id="c-sect-shadows2">
+            <img src="images/c-logo.png" class="img-fluid">
+         </div>
+         <div class="col-lg-2 col-md-5 col-xs-12 text-center p-4 my-4" id="c-sect-shadows">
+            <img src="images/c-logo02.png" class="img-fluid">
+         </div>
+         <div class="col-lg-2 col-md-5 col-xs-12 text-center p-4 my-4" id="c-sect-shadows2">
+            <img src="images/c-logo03.png" class="img-fluid">
+         </div>
+         <div class="col-lg-2 col-md-5 col-xs-12 text-center p-4 my-4" id="c-sect-shadows2">
+            <img src="images/c-logo04.png" class="img-fluid">
+         </div>
+      </div><!--row-->
+   </div><!--container-->
+</div><!--contact-->
+<!--------------------Contact--------------------------->
+
+
+<!------------------------footer-section---------------->
+<div class="footer-section py-5">
+   <div class="container">
+      <div class="row">
+         <div class="col-lg-3 col-md-6 col-xs-12">
+            <h3 class="pb-4"><img src="images/hospital_logo.png" class="img-fluid" id="images-size"></h3>
+            <p>Sed ut perspiciatis unde om is<br>nerror sit voluptatem accustium<br>dolorem tium totam rem aperam<br>eaque ipsa quae ab illose inntore<br>veritatis</p>
+            <p class="pb-2">
+              <ul class="list-inline d-inline-flex">
+                <li class="me-4"><a href="#" class="rounded-circle" id="footer-icons-padding1"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li class="me-4"><a href="#" class="rounded-circle" id="footer-icons-padding2"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li class="me-4"><a href="#" class="rounded-circle" id="footer-icons-padding3"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                <li class="me-4"><a href="#" class="rounded-circle" id="footer-icons-padding4"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+              </ul>
+            </p>
+         </div>
+
+         <div class="col-lg-3 col-md-6 col-xs-12">
+            <h3 class="pb-4">Our Links</h3>
+            <p class="h-transRight"><a href="#" class="text-decoration-none text-dark"><i class="fa fa-angle-right" aria-hidden="true"></i> <span>Partners</span></a></p>
+            <p class="h-transRight"><a href="#" class="text-decoration-none text-dark"><i class="fa fa-angle-right" aria-hidden="true"></i> <span>About Us</span></a></p>
+            <p class="h-transRight"><a href="#" class="text-decoration-none text-dark"><i class="fa fa-angle-right" aria-hidden="true"></i> <span>Career</span></a></p>
+            <p class="h-transRight"><a href="#" class="text-decoration-none text-dark"><i class="fa fa-angle-right" aria-hidden="true"></i> <span>Reviews</span></a></p>
+            <p class="h-transRight"><a href="#" class="text-decoration-none text-dark"><i class="fa fa-angle-right" aria-hidden="true"></i> <span>Terms & Conditions</span></a></p>
+            <p class="h-transRight"><a href="#" class="text-decoration-none text-dark"><i class="fa fa-angle-right" aria-hidden="true"></i> <span>Help</span></a></p>
+         </div>
+
+         <div class="col-lg-3 col-md-6 col-xs-12">
+            <h3 class="pb-4">Other Links</h3>
+            <p class="h-transRight"><a href="#" class="text-decoration-none text-dark"><i class="fa fa-angle-right" aria-hidden="true"></i> <span>Home</span></a></p>
+            <p class="h-transRight"><a href="#" class="text-decoration-none text-dark"><i class="fa fa-angle-right" aria-hidden="true"></i> <span>About us</span></a></p>
+            <p class="h-transRight"><a href="#" class="text-decoration-none text-dark"><i class="fa fa-angle-right" aria-hidden="true"></i> <span>Services</span></a></p>
+            <p class="h-transRight"><a href="#" class="text-decoration-none text-dark"><i class="fa fa-angle-right" aria-hidden="true"></i> <span>Project</span></a></p>
+            <p class="h-transRight"><a href="#" class="text-decoration-none text-dark"><i class="fa fa-angle-right" aria-hidden="true"></i> <span>Our Team</span></a></p>
+            <p class="h-transRight"><a href="#" class="text-decoration-none text-dark"><i class="fa fa-angle-right" aria-hidden="true"></i> <span>Latest Blog</span></a></p>
+         </div>
+         <div class="col-lg-3 col-md-6 col-xs-12">
+            <h3 class="pb-4">Contact Us</h3>
+            <div class="pb-2">
+               <ul class="list-inline d-inline-flex">
+                 <li class="rounded-circle m-auto me-2" id="foot-icons-pad1"><i class="fa fa-phone" aria-hidden="true"></i></li>
+                 <li>1800-121-3637<br>+91 555 234-8765</li>
+               </ul>
+            </div>
+            <div class="pb-2">
+               <ul class="list-inline d-inline-flex">
+                 <li class="rounded-circle m-auto me-2" id="foot-icons-pad2"><i class="fa fa-envelope-o" aria-hidden="true"></i></li>
+                 <li><a href="#" class="text-decoration-none text-dark">info@example.com<br>sale@example.com</a>
+                  <a href="#"></a></li>
+               </ul>
+            </div>
+            <div>
+               <ul class="list-inline d-inline-flex">
+                 <li class="rounded-circle m-auto me-2" id="foot-icons-pad3"><i class="fa fa-map-marker" aria-hidden="true"></i></li>
+                 <li>380 St Kilda Road,<br>MelbourneVIC<br>3004, Australia</li>
+               </ul>
+            </div>
+         </div>
+      </div><!--row-->
+   </div><!--container-->
+</div><!--footer-section-->
+<!------------------------footer-section---------------->
+
+<!-----------------------end-section---------------->
+<div class="end-section">
+   <div class="container">
+      <div class="row text-center pt-3 pb-2">
+         <div id="end-text-color">
+            <p>&copy; 2020 mecare All design Shtheme.</p>
+         </div>
+      </div><!--row-->
+   </div><!--container--->
+</div><!--end-section-->
+<!-----------------------end-section---------------->
+
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
